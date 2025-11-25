@@ -38,3 +38,13 @@ Input Validation: Handles invalid city names gracefully
 Continuous Operation: Run multiple queries without restarting
 
 Clear Display: Formatted, readable weather information
+## Error Handling
+Invalid city names
+
+Network connectivity issues
+
+API rate limiting
+
+Database connection problems
+
+Invalid user inputs
