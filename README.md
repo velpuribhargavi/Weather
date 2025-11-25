@@ -2,7 +2,7 @@
 A Python application that fetches real-time weather data from OpenWeatherMap API, displays weather information for user-specified cities, and logs all responses with timestamps to both SQLite database and text files.
 
 # Features
-- Real-time Weather Data: Fetches current weather information using OpenWeatherMap API
+- **Real-time Weather Data**: Fetches current weather information using OpenWeatherMap API
 
 - Multi-city Support: Input multiple cities to get weather data
 
@@ -19,32 +19,32 @@ WEATHER_APP/
 
 ## Data Storage & Logging
 
-SQLite Database: All API responses are automatically logged with timestamps
+- SQLite Database: All API responses are automatically logged with timestamps
 
-Persistent Storage: Data remains available between sessions
+- Persistent Storage: Data remains available between sessions
 
-Structured Logging: Each entry includes:
+- Structured Logging: Each entry includes:
 
-Timestamp of request
+- Timestamp of request
 
-City name searched
+- City name searched
 
 Complete API response data
 ## User Experience
-Interactive CLI: Easy-to-use command-line interface
+- Interactive CLI: Easy-to-use command-line interface
 
-Input Validation: Handles invalid city names gracefully
+- Input Validation: Handles invalid city names gracefully
 
-Continuous Operation: Run multiple queries without restarting
+- Continuous Operation: Run multiple queries without restarting
 
-Clear Display: Formatted, readable weather information
+- Clear Display: Formatted, readable weather information
 ## Error Handling
-Invalid city names
+- Invalid city names
 
-Network connectivity issues
+- Network connectivity issues
 
-API rate limiting
+- API rate limiting
 
-Database connection problems
+- Database connection problems
 
 Invalid user inputs
