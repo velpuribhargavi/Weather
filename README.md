@@ -16,7 +16,32 @@ WEATHER_APP/
 ├── requirements.txt
 ├── weather_app.py
 └── weather_data.db
+## Requirements
 
+- Python 3.6+
+- requests library
+  ## Installation
+
+1. Clone or download the project files
+2. Install required dependencies:
+   bash
+   pip install requests
+3. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
+   - Sign up for a free account
+   - Generate an API key in your dashboard
+  ## Database Schema
+
+The application uses SQLite with the following table structure:
+sql
+CREATE TABLE logs (
+    id INTEGER PRIMARY KEY,
+    city TEXT,
+    temp REAL,
+    humidity INTEGER,
+    condition TEXT,
+    wind speed REAL,
+    timestamp TEXT
+)
 ## Data Storage & Logging
 
 - **SQLite Database**: All API responses are automatically logged with timestamps
