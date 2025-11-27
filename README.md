@@ -20,7 +20,7 @@ WEATHER_APP/
 
 - Python 3.6+
 - requests library
-  ## Installation
+## Installation
 
 1. Clone or download the project files
 2. Install required dependencies:
@@ -53,8 +53,6 @@ CREATE TABLE logs (
 - Timestamp of request
 
 - City name searched
-
-Complete API response data
 
 ## User Experience
 - **Interactive CLI**: Easy-to-use command-line interface
