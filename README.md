@@ -77,3 +77,60 @@ CREATE TABLE logs (
 - API rate limiting
 - Database connection problems
 - Invalid user inputs
+
+**Data base**
+
+```sql
+1. Get Weather
+2. History
+3. Exit
+Choice: 1
+City: Guntur
+City: Guntur
+Temp: 21.57C
+Humidity: 71%
+Condition: overcast clouds
+
+1. Get Weather
+2. History
+3. Exit
+Choice: 1
+City: Ponnur
+City: Ponnur
+Temp: 23.31C
+Humidity: 76%
+Condition: overcast clouds
+```
+
+
+**Final output**
+```sql
+
+1. Get Weather
+2. History
+3. Exit
+Choice: 2
+2025-11-28 19:52:56 |
+Vinukonda
+| 21.750|70% |
+overcast clouds
+2025-11-28 19:52:37
+Ponnur
+23.310
+76%
+overcast clouds
+2025-11-28 19:52:20
+Guntur
+21.570
+71%
+overcast clouds
+2025-11-27 21:42:43
+Mumbai
+27.990|65% |
+haze
+2025-11-27 21:42:07
+|Guntur|
+21.10
+81%
+broken clouds
+```
