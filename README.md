@@ -1,6 +1,14 @@
 ## Real-Time Weather Information & Data Logger
 A Python application that fetches real-time weather data from OpenWeatherMap API, displays weather information for user-specified cities, and logs all responses with timestamps to both SQLite database and text files.
 
+## Project Structure
+
+WEATHER
+├── config.py
+├── requirements.txt
+├── weather_app.py
+└── weather.db
+
 # Features
 - **Real-time Weather Data**: Fetches current weather information using OpenWeatherMap API
 
@@ -10,13 +18,7 @@ A Python application that fetches real-time weather data from OpenWeatherMap API
 
 - **Object-Oriented Design**: Clean, modular code using OOP principles
 
-## Project Structure
 
-WEATHER
-├── config.py
-├── requirements.txt
-├── weather_app.py
-└── weather.db
 ## Requirements
 
 - Python 3.6+
@@ -25,15 +27,18 @@ WEATHER
 
 1. Clone or download the project files
 2. Install required dependencies:
-   bash
+   ```sql bash
    pip install requests
+   ```
 3. Get an API key from [OpenWeatherMap](https://openweathermap.org/api)
    - Sign up for a free account
    - Generate an API key in your dashboard
+   
 ## Database Schema
 
 The application uses SQLite with the following table structure:
-sql
+
+```sql
 CREATE TABLE logs (
     id INTEGER PRIMARY KEY,
     city TEXT,
@@ -43,6 +48,7 @@ CREATE TABLE logs (
     wind speed REAL,
     timestamp TEXT
 )
+```
 ## Data Storage & Logging
 
 - **SQLite Database**: All API responses are automatically logged with timestamps
@@ -63,13 +69,11 @@ CREATE TABLE logs (
 - **Continuous Operation**: Run multiple queries without restarting
 
 - **Clear Display**: Formatted, readable weather information
+- 
 ## Error Handling
+
 - Invalid city names
-
 - Network connectivity issues
-
 - API rate limiting
-
 - Database connection problems
-
 - Invalid user inputs
