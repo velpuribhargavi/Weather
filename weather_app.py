@@ -48,14 +48,14 @@ class WeatherApp:
         conn.close()
 
 def main():
-    app = WeatherApp("e4ed6f2cb4175ca76f2f5c1d38f900c8")  
+    app = WeatherApp("e4ed6f2cb4175ca76f2f5c1d38f900c8")  # api key
     
     while True:
-        print("\n1. Get Weather\n2. History\n3. Exit")
+        print("\n1. Get Weather\n2. History\n3. Exit")     # Enter choice
         choice = input("Choice: ")
         
         if choice == '1':
-            city = input("City: ")
+            city = input("City: ")                  # Enter city name
             data = app.get_weather(city)
             if data:
                 app.display(data)
