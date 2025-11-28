@@ -78,7 +78,7 @@ CREATE TABLE logs (
 - Database connection problems
 - Invalid user inputs
 
-**Data base**
+**Example of Data base**
 
 ```sql
 1. Get Weather
