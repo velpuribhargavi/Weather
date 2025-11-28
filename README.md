@@ -104,6 +104,7 @@ Condition: overcast clouds
 
 
 **Final output**
+
 ```sql
 
 1. Get Weather
