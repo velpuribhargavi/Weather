@@ -12,10 +12,11 @@ A Python application that fetches real-time weather data from OpenWeatherMap API
 
 ## Project Structure
 
-WEATHER_APP/
+WEATHER
+├── config.py
 ├── requirements.txt
 ├── weather_app.py
-└── weather_data.db
+└── weather.db
 ## Requirements
 
 - Python 3.6+
